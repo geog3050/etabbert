@@ -17,3 +17,4 @@ I think that the need for geographic information systems is on the rise and more
 I am excited to graduate from the University of Iowa and start my career in geoinformatics.
 
 [My Resume](resume.pdf)
+[Contact](mailto:etabbert@uiowa.edu)
