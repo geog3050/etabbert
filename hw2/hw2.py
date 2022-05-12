@@ -310,11 +310,9 @@ def tournament(participants):
         for p2 in range(p1 + 1, len(participants)):
             if fight(participants[p1], participants[p2], 1)[0] == 1:
                 wins[p1] += 1
-            if fight(participants[p1], participants[p2], 2)[0] == 1:
+            elif fight(participants[p1], participants[p2], 2)[0] == 1:
                 wins[p1] += 1
-            if fight(participants[p1], participants[p2], 1)[0] == 2:
-                wins[p2] += 1
-            if fight(participants[p1], participants[p2], 2)[0] == 2:
+            else:
                 wins[p2] += 1
                 
     return wins
